@@ -1,0 +1,29 @@
+{
+  "name": "simple-portifolio",
+  "version": "1.0.0",
+  "description": "A simple portifolio made with Next.js and Chakra UI",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Lucas Melo<lucas.pinheiro.melo@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "framer-motion": "^10.12.8",
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-next": "^13.4.1",
+    "prettier": "^2.8.8"
+  }
+}
